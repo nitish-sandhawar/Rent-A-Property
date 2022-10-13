@@ -1,0 +1,21 @@
+.filter-bar{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.filter-bar > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-right: 1px solid #999;
+    padding-right: 10px;
+    
+}
+
+.filter-bar > div:last-child{
+    border: 0px;
+}

@@ -1,0 +1,64 @@
+
+  .blog-card {
+    display: flex;
+    flex-direction: column;
+    width: 256px;
+    min-width: 128px;
+    min-height: 128px;
+    margin: 5px 5px 15px 5px;
+    /* padding: 10px; */
+    border-radius: 10px;
+    background-color: rgb(255, 250, 250);
+    overflow: hidden;
+  }
+  
+  .card-img {
+    width: 256px;
+  }
+  .card-img img {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 0px 10px;
+    font-family: raleway, Arial, Helvetica, sans-serif;
+  }
+  
+  h2 {
+    font-size: 9.6pt;
+    text-transform: uppercase;
+    margin-bottom: 6.4px;
+  }
+  
+  h1 {
+    font-size: 15pt;
+    margin-bottom: 20px;
+  }
+  .card-body p {
+    font-size: 10.8pt;
+    opacity: 60%;
+  }
+  
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10.8pt;
+  }
+  
+  .card-footer a:link {
+    color: rgb(109, 109, 235);
+    text-decoration: none;
+  }
+  .card-footer a:visited {
+    color: rgb(109, 109, 235);
+    text-decoration: none;
+  }
+  
+  .favourite-and-price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
