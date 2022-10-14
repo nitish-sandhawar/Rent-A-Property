@@ -13,8 +13,8 @@ function App() {
       <div className="App">
         <header className="App-header">
         <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/Favourite" element={<Favourite />} />
+        <Route path="/" exact element={<Home />} />
+        <Route path="/favourite" element={<Favourite />} />
         </Routes>
 
         </header>

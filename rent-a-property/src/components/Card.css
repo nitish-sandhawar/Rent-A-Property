@@ -33,7 +33,7 @@
   
   h1 {
     font-size: 15pt;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   .card-body p {
     font-size: 10.8pt;
@@ -44,15 +44,6 @@
     display: flex;
     justify-content: space-between;
     font-size: 10.8pt;
-  }
-  
-  .card-footer a:link {
-    color: rgb(109, 109, 235);
-    text-decoration: none;
-  }
-  .card-footer a:visited {
-    color: rgb(109, 109, 235);
-    text-decoration: none;
   }
   
   .favourite-and-price{

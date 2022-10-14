@@ -21,7 +21,16 @@
     /* padding: 20px; */
 }
 
-p{
+/* p{
+    font-size: 35px;
+    margin: 5px;
+} */
+.empty-list-tag{
+    width:100%;
+    background: white !important;
+    font-size: 35px;
+}
+.list-tag{
     font-size: 35px;
     margin: 5px;
 }

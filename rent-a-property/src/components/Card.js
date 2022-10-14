@@ -22,7 +22,7 @@ const Card = ({item}) => {
     <div className="card-content">
       <div className="card-body">
         <div className='favourite-and-price'>
-            <p>${item.price}/month</p>
+            <p><span style={{"color":"#200994", "fontSize":"20px","fontWeight":600}}>${item.price}</span>/month</p>
             {
                 favourite.some((p)=>p.id===item.id)?
                     <AiFillHeart color="#200994"
